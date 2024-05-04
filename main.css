@@ -1,0 +1,685 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* button {
+  cursor: pointer;
+}
+* button:hover {
+  transform: scale(1.1);
+  transition: all ease-in-out 0.4s;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  background-color: rgb(46, 49, 49);
+  border: 1px solid white;
+}
+
+.container {
+  width: 1260px;
+  margin: 0 auto;
+  padding: 30px 0px;
+}
+.container nav {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  gap: 30px;
+}
+.container nav .logo-2 {
+  display: flex;
+  justify-content: space-between;
+}
+.container nav .logo h1 {
+  font-size: 40px;
+  color: white;
+}
+.container nav .navbar ul {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  font-size: 17px;
+  gap: 25px;
+  font-size: 20px;
+}
+.container nav .navbar ul li a {
+  text-decoration: none;
+  color: black;
+  color: white;
+}
+.container nav .button button {
+  width: 120px;
+  height: 40px;
+  background-color: #1B213A;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 7px;
+}
+.container nav .button button :hover {
+  transform: scale();
+}
+.container .sardor {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: rgb(0, 40, 40);
+  padding-top: 90px;
+}
+footer .navbar1 h1 {
+  font-size: 45px;
+  color: white;
+}
+footer .navbar1 p {
+  padding-top: 10px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: white;
+}
+footer .www {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  height: 80px;
+  background-color: white;
+  border-radius: 20px;
+}
+footer .logo3 input {
+  width: 170px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+footer .logo4 button {
+  width: 77px;
+  height: 31px;
+  border-radius: 6px;
+  background: #1B213A;
+  color: white;
+  border: none;
+}
+footer .sss {
+  width: 350px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(125, 109, 109);
+  font-size: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+footer .s1 span {
+  color: white;
+}
+
+section {
+  width: 100%;
+  height: auto;
+  padding: 70px 10px;
+}
+section .s-s {
+  text-align: center;
+}
+section .s-s h1 {
+  margin-bottom: 90px;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+section .sardor-2-2 {
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+section .nav-3 {
+  width: 400px;
+  height: 170px;
+}
+section .nav-3 h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+section .nav-3 p {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  padding: 20px;
+}
+section .nav-3 button {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-left: 150px;
+  background-color: #1B213A;
+}
+
+.walker {
+  width: 100%;
+  height: auto;
+  padding-top: 200px;
+}
+.walker .nav-123 {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.walker .imig-45 {
+  border-radius: 20px;
+}
+.walker .imig-2 {
+  width: 600px;
+}
+.walker .nav-55 h1 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.walker .nav-55 p {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.walker .nav-55 button {
+  width: 160px;
+  height: 40px;
+  border-radius: 5px;
+  border: 2px;
+  background-color: #1B213A;
+  color: white;
+}
+
+.omad {
+  width: 100%;
+  height: auto;
+}
+.omad .omad-1 h1 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.omad .omad-1 p {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.omad .div {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.omad .imig-one p {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.omad .img-one h3 {
+  font-weight: bold;
+}
+.omad .car {
+  padding: 0px 8px;
+  margin-left: 10px;
+  color: rgb(93, 68, 117);
+}
+
+.divn1 p {
+  margin-bottom: 40px;
+}
+
+.halal {
+  width: 100%;
+  height: auto;
+}
+.halal .salomat p {
+  padding-top: 20px;
+}
+.halal .haram1 {
+  display: flex;
+}
+.halal .divn5 {
+  display: flex;
+}
+
+.salom-one {
+  width: 100%;
+  height: auto;
+  margin-bottom: 100px;
+}
+
+.navbar-seven {
+  margin: 0 auto;
+  width: 1200px;
+  height: 300px;
+  background: #323233;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.navbar-seven h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 40px;
+  color: white;
+}
+
+.navbar-seven p {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.hello {
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 400px;
+  height: 60px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.logofoo input {
+  width: 200px;
+  height: 30px;
+  background-color: white;
+  border: none;
+  text-transform: capitalize;
+  padding: 6px;
+}
+
+.logofoor button {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #323233;
+  color: white;
+  border: none;
+}
+
+.hover {
+  width: 100%;
+  height: auto;
+  background-color: rgb(39, 67, 67);
+}
+.hover .nav-23 {
+  font-size: 20px;
+}
+.hover .nav-23 p {
+  font-size: 20px;
+  text-align: left;
+  color: white;
+  padding-top: 20px;
+}
+.hover .nav-23 h1 {
+  font-size: 40px;
+  text-align: left;
+  color: white;
+}
+.hover .nav-22 h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: left;
+  color: white;
+}
+.hover .nav-22 p {
+  text-align: left;
+  font-size: 18px;
+  line-height: 70px;
+  color: white;
+}
+
+.ddd {
+  background-color: rgb(5, 74, 74);
+}
+.ddd i {
+  font-size: 30px;
+  color: white;
+}
+.ddd .nav-one {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.ddd .nav-one span {
+  font-size: 25px;
+  color: white;
+}
+.ddd .mamajonov h2 {
+  font-size: 40px;
+  color: white;
+}
+.ddd .sardor-n1 {
+  width: 400px;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+  .container {
+    margin: 0 auto;
+    width: 96%;
+  }
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    justify-content: space-between;
+  }
+  .sardor {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+  }
+  .sardor .navbar1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .sardor .navbar1 h1 {
+    font-size: 30px;
+  }
+  .sardor .navbar1 p {
+    font-size: 14px;
+  }
+  .sardor .navbar1 .www {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  .sardor #image_for_header {
+    width: 100%;
+    visibility: visible;
+    margin-bottom: 20px;
+  }
+  .s-s h1 {
+    font-size: 10px;
+  }
+  .sardor-2-2 {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    padding: 20px;
+  }
+  .sardor-2-2 h1 {
+    font-size: 100px;
+  }
+  .nav-123 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .nav-123 #image-foor-123 {
+    width: 100%;
+    display: flex;
+  }
+  .sss .s1 h2 {
+    font-size: 20px;
+  }
+  .sss .s1 p {
+    font-size: 15px;
+  }
+  .nav-55 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-55 h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .nav-55 p {
+    text-align: center;
+  }
+  .div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .div .imig-one img {
+    width: 100%;
+    height: auto;
+  }
+  .div .halal {
+    text-align: center;
+  }
+  .salomat h1 {
+    text-align: center;
+  }
+  .divn1 {
+    text-align: center;
+  }
+  .haram {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .haram .divn5 {
+    flex-wrap: wrap;
+  }
+  .haram .divn5 #teln1 {
+    margin: 0 auto;
+  }
+  .haram .divn5 .sardoreek h3 {
+    text-align: center;
+  }
+  .haram .imigessww {
+    width: 100%;
+  }
+  .navbar-seven {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+  }
+  .navbar-seven .hello {
+    width: 100%;
+  }
+  .hover .nav-23 h1 {
+    text-align: center;
+  }
+  .hover .nav-23 p {
+    text-align: center;
+  }
+  .hover .nav-22 p {
+    text-align: center;
+  }
+  .hover .nav-22 h3 {
+    text-align: center;
+  }
+  .ddd {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .ddd .nav-one {
+    flex-wrap: wrap;
+  }
+  .ddd .nav-one .mamajonov h2 {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .ddd .nav-one .mamajonov .nomer span {
+    font-size: 20px;
+    color: white;
+  }
+  .nomer1 span {
+    text-align: center;
+  }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  .container {
+    margin: 0 auto;
+    width: 96%;
+  }
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    justify-content: space-between;
+  }
+  .sardor {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+  }
+  .sardor .navbar1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .sardor .navbar1 h1 {
+    font-size: 30px;
+  }
+  .sardor .navbar1 p {
+    font-size: 14px;
+  }
+  .sardor .navbar1 .www {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  .sardor #image_for_header {
+    width: 100%;
+    visibility: visible;
+    margin-bottom: 20px;
+  }
+  .s-s h1 {
+    font-size: 10px;
+  }
+  .sardor-2-2 {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    padding: 20px;
+  }
+  .sardor-2-2 h1 {
+    font-size: 100px;
+  }
+  .nav-123 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .nav-123 #image-foor-123 {
+    width: 100%;
+    display: flex;
+  }
+  .sss .s1 h2 {
+    font-size: 20px;
+  }
+  .sss .s1 p {
+    font-size: 15px;
+  }
+  .nav-55 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-55 h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .nav-55 p {
+    text-align: center;
+  }
+  .div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .div .imig-one img {
+    width: 100%;
+    height: auto;
+  }
+  .div .halal {
+    text-align: center;
+  }
+  .salomat h1 {
+    text-align: center;
+  }
+  .divn1 {
+    text-align: center;
+  }
+  .haram {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .haram .divn5 {
+    flex-wrap: wrap;
+  }
+  .haram .divn5 #teln1 {
+    margin: 0 auto;
+  }
+  .haram .divn5 .sardoreek h3 {
+    text-align: center;
+  }
+  .haram .imigessww {
+    width: 100%;
+  }
+  .navbar-seven {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+  }
+  .navbar-seven .hello {
+    width: 100%;
+  }
+  .hover .nav-23 h1 {
+    text-align: center;
+  }
+  .hover .nav-23 p {
+    text-align: center;
+  }
+  .hover .nav-22 p {
+    text-align: center;
+  }
+  .hover .nav-22 h3 {
+    text-align: center;
+  }
+  .ddd {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .ddd .nav-one {
+    flex-wrap: wrap;
+  }
+  .ddd .nav-one .mamajonov h2 {
+    margin-bottom: 10px;
+  }
+}/*# sourceMappingURL=main.css.map */
